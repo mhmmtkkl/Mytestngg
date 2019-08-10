@@ -21,7 +21,7 @@ public class ReusableMethods {
 		
 		SearchingClick.click();
 		
-		
+		  
 		
 	}
 
