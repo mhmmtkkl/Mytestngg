@@ -23,9 +23,11 @@ public abstract class myBeforeClass {
 		
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
-		driver.get("https://www.spring-education.co.uk/");
+		driver.get("https://www.etsy.com/");
 	 
 		driver.manage().window().maximize();
+		
+		
  		
 	}
 }
