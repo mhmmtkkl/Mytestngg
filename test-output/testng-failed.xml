@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Class2testNG.testng_810">
+      <class name="TestingEtsy.AllMenuAItems">
         <methods>
-          <include name="LearnEnglish"/>
-          <include name="ClickEnglishCourse"/>
+          <include name="Allhoveroveronbuttons"/>
+          <include name="mybeforeTest"/>
         </methods>
-      </class> <!-- Class2testNG.testng_810 -->
+      </class> <!-- TestingEtsy.AllMenuAItems -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
