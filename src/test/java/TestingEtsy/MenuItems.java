@@ -34,7 +34,7 @@ public class MenuItems extends myBeforeClass{
 				 
 			  r1.hoveroverinHomePage(homeLiving, Pet_Suplies, PetClothing);
 			
-			  wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@id='etsy-logo']//a")));
+			 
 	}
 	
 	
