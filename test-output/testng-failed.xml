@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite thread-count="2" name="Failed suite [Suite]" parallel="classes">
+  <test thread-count="2" name="Test-class test(failed)" parallel="classes">
     <classes>
-      <class name="TestingEtsy.AllMenuAItems">
+      <class name="TestingEtsy.MenuItems">
         <methods>
-          <include name="Allhoveroveronbuttons"/>
           <include name="mybeforeTest"/>
+          <include name="hoveroveronbuttons"/>
         </methods>
-      </class> <!-- TestingEtsy.AllMenuAItems -->
+      </class> <!-- TestingEtsy.MenuItems -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test-class test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -20,7 +20,7 @@ public abstract class myBeforeClass {
 			 
 		driver = myDriver.getDriver("Chrome");
 		
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		
 		driver.get("https://www.etsy.com/");
 	 
